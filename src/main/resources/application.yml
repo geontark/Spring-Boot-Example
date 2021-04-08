@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: example
+  profiles:
+    active: dev
+
+server:
+  port: 8888
+
+---
+
+spring:
+  application:
+    name: example
+  profiles:
+    active: prod
+
+server:
+  port: 8888
